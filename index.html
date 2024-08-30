@@ -10,20 +10,24 @@
     <title>Dev Convert Money</title>
 </head>
 <body>
-    <img src="./assets/logo.gif" alt="Logo-Dev-Convert-Money">
+    <img class="logo" src="./assets/logo.gif" alt="Logo-Dev-Convert-Money">
 
     <main>
         <label>
+            Converter <b>de:</b>
             <select name="" id="">
-                Converter <b>de:</b>
                 <option>R$ Real Brasileiro</option>
+                <option>US$ Dólar</option>
+                <option>E$ Euro</option>
             </select>
         </label>
 
         <label>
             <b>para:</b>
-            <option>US$ Dólar</option>
-            <option>€  Euro</option>
+            <select name="" id="">
+                <option>US$ Dólar</option>
+                <option>€  Euro</option>
+            </select>
         </label>
 
         <label>
@@ -34,22 +38,22 @@
         <button>Converter</button>
 
         <section>
-            <div>
+            <div class="currency-box">
                 <img src="./assets/real.png" alt="logo-moeda-a-converter">
-                <p>Real</p>
-                <p>R$ 0,00</p>
+                <p class="currency">Real</p>
+                <p class="currency-value">R$ 0,00</p>
             </div>
 
-            <img src="./assets/arrow.png" alt="seta">
+            <img class="arrow-img" src="./assets/arrow.png" alt="seta">
 
-            <div>
-                <img src="./assets/real.png" alt="logo-moeda-convertida">
-                <p>Dólar</p>
-                <p>US$ 0,00</p>
+            <div class="currency-box">
+                <img src="./assets/dolar.png" alt="logo-moeda-convertida">
+                <p class="currency">Dólar</p>
+                <p class="currency-value">US$ 0,00</p>
             </div>
 
         </section>
-
+        
     </main>
 </body>
 </html>
